@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us!</title>
+    <style>
+        body {
+            margin-top: 200px;
+            background-color: black;
+            color: white;
+            
+        }
+        .formDiv {
+            width: 25%;
+            
+            margin: auto;
+        }
+        ul {
+            list-style-type: none;
+            text-align: center;
+            padding-left: 0px;
+            border: 3px dotted #4CAF50;
+            
+
+        }
+       
+        li {
+            border: 3px dotted #4CAF50;
+            list-style-type: none;
+            font-size: 20px;
+            color: White;
+            background-color: black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .button2 {
+            font: bold 13px Arial;
+            text-decoration: none;
+            background-color: #EEEEEE;
+            color: #333333;
+            padding: 2px 6px 2px 6px;
+            border-top: 1px solid #CCCCCC;
+            border-right: 1px solid #333333;
+            border-bottom: 1px solid #333333;
+            border-left: 1px solid #CCCCCC;
+}
+
+      
+    </style>
+</head>
+<body>
+        <div class="formDiv">
+            <h1>One of my favorite cities...</h1>
+            <br />
+            <h3>Douglas Wilson</h3>
+            <h3>Email: dougwilson0000@yahoo.com</h3>
+            <h3>1475 East Main St., Chico, CA 95928</h3>
+            <h3>(231) 288-8781</h3>
+            <form action="/" method="post">
+                <ul>
+                <li>
+                <label for="name">Name:</label>
+                <br />
+                <br />
+                <input size="20" placeholder="First Name" type="text" id="name" name="user_first_name">&nbsp;<input size="20" placeholder="Last Name" type="text" id="name1" name="user_last_name">
+                </li>
+                <li>
+                    
+                <label for="mail">E-mail:</label>
+                <br />                
+                <br />
+                
+                <input placeholder="Email" type="email" id="mail" name="user_mail"><strong> @ </strong>
+                    <select id = "myList">
+                    <option value="" selected data-default>Email Domain</option>   
+                    <option value = "yahoo.com">yahoo.com</option>
+                    <option value = "gmail.com">gmail.com</option>
+                    <option value = "google.com">google.com</option>
+                    <option value = "hotmail.com">hotmail.com</option>
+                    <option value = "me.com">me.com</option>
+                    <option value = "aol.com">aol.com</option>
+                    <option value = "mac.com">mac.com</option>
+                    <option value = "live.com">live.com</option>
+                    <option value = "comcast.com">comcast.com</option>
+                    <option value = "msn.com">msn.com</option>
+                    <option value = "verizon.net">verizon.net</option>
+                    <option value = "att.net">att.net</option>
+                    <option value = "gmz.com">gmz.com</option>
+                  </select>
+                  <br />
+                </li>
+                
+                <li>
+                <label for="msg">Message:</label>
+                <br />
+                <br />
+                <textarea placeholder="Questions or Comments?" rows="7" cols="45" id="msg" name="user_message"></textarea>
+                
+                 </li>
+                
+                <li class="button">
+                    <button type="submit">Submit Form</button>
+                  
+                
+                  <br />
+                  <a href="./index.html" class="button2">Return to Homepage</a></li>
+                </ul>
+            </form>
+        </div>    
+    </body>
+</html>
